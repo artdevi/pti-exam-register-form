@@ -1,10 +1,10 @@
 const submitButton = document.getElementById('submit-button')
 
 submitButton.addEventListener('click', () => {
-    if (submitButton.style.backgroundColor == 'black') {
-        submitButton.style.backgroundColor = 'yellow'
+    if (document.body.backgroundColor == '#e1e1e1') {
+        document.body.backgroundColor == '#262626'
     }
     else {
-        submitButton.style.backgroundColor = 'black'
+        document.body.backgroundColor == '#e1e1e1'
     }
 })
